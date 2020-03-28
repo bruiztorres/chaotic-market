@@ -1,0 +1,10 @@
+.round-container {
+  background-color: white;
+  border-radius: 0.2rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+
+  min-width: calc(50% - 1rem);
+  min-height: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
