@@ -175,7 +175,6 @@ module.exports =  {
       "declaration"
     ],
     "indent": [2, 2, { "SwitchCase": 1 }],
-    "@typescript-eslint/indent": [2, 2],
     "key-spacing": [
       2,
       {
@@ -297,7 +296,10 @@ module.exports =  {
     "no-bitwise": 0,
     "no-plusplus": 0,
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "warn",
+    "@typescript-eslint/indent": [2, 2],
+    "@typescript-eslint/interface-name-prefix": "off"
+
   },
   settings: {
     react: {
@@ -308,8 +310,7 @@ module.exports =  {
     {
       files: ["*.js"],
       rules: {
-        "interface-name" : [true, "never"],
-        '@typescript-eslint/interface-name-prefix': 'off',
+        "@typescript-eslint/interface-name-prefix": "off",
         "@typescript-eslint/no-var-requires": "off",
         "@typescript-eslint/explicit-function-return-type": "off"
       }
