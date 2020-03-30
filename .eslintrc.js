@@ -299,7 +299,6 @@ module.exports =  {
     "react-hooks/exhaustive-deps": "warn",
     "@typescript-eslint/indent": [2, 2],
     "@typescript-eslint/interface-name-prefix": "off"
-
   },
   settings: {
     react: {
